@@ -1,6 +1,6 @@
 """
 recommender.py -- Matrix-Based Content Recommendation Engine
-==============================================================
+
 Builds a content-based filtering system using metadata similarity
 and weighted re-ranking on popularity signals.
 
@@ -15,8 +15,7 @@ Architecture:
   5. Re-ranking           -- Weighted composite score blending similarity
                              with normalized rating, reviews, and longevity.
 
-Author : Shreyansh
-Created: 2026-05-21
+
 """
 
 import pandas as pd
